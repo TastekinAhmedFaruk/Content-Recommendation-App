@@ -5,7 +5,7 @@ import datetime
 import uuid
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import CountVectorizer
-from user_based_data import df_B, ids, watched_list, ratings_list, topVodsAdultUId, topVodsAdultScore, topVodsChildUId, topVodsChildScore,  getSeriesId, all_vods, active_films, child_content, indices_uid, cosine_sim
+from userBaseData import df_B, ids, watched_list, ratings_list, topVodsAdultUId, topVodsAdultScore, topVodsChildUId, topVodsChildScore,  getSeriesId, all_vods, active_films, child_content, indices_uid, cosine_sim
 
 path = r'Driver={ODBC Driver 17 for SQL Server};Server=XXX.XXX.XXX.XXX; Database=DBNAME; uid=DBUSER; pwd=USERPASS;'
 
