@@ -4,7 +4,7 @@ import time
 import datetime
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import CountVectorizer
-from itembasedata_for_one_day import df_B, active_films, child_content, indices_uid, cosine_sim
+from itemBaseData import df_B, active_films, child_content, indices_uid, cosine_sim
 
 path = r'Driver={ODBC Driver 17 for SQL Server};Server=XXX.XXX.XXX.XXX; Database=DBNAME; uid=DBUSER; pwd=USERPASS;'
 
